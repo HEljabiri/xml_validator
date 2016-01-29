@@ -19,7 +19,7 @@ Nous détaillons dans cette page la méthodologie de création de cette image ai
 - Création d’un fichier Dockerfile contenant les intructions à faire pour la création de la nouvelle étape :
 
 **FROM ubuntu:14.04
-MAINTAINER Hanane Eljabiri <hanane.eljabiri@gmail.com>
+MAINTAINER Hanane Eljabiri <me@gmail.com>
 RUN apt-get update && apt-get -y install libxml2-dev**
 
 - Construction de la nouvelle image :
