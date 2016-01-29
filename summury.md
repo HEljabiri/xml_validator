@@ -40,7 +40,7 @@ RUN apt-get update && apt-get -y install libxml2-dev**
 
 **Docker run –t –i –v  chemin_host:chemin_container hanane/xml_validator :v3**
 
-###Remarque : 
+#####Remarque : 
 
 le template du chemin du dossier host  dépend du système d’exploitation host, par exemple sur windows, le chemin doit respecter le template suivant :
 
@@ -50,7 +50,7 @@ le template du chemin du dossier host  dépend du système d’exploitation host
 
 **Xmllint –schema annuaire.xsd annuaire.xml D:\3eme_ENSG\xml_validator**
 
-###Exemple:
+#####Exemple:
 
 ![Exmple d'utilisation du container pour la validation du fichir annuaire.xml](ressources/exemple.png "")
 
