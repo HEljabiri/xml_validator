@@ -48,9 +48,9 @@ le template du chemin du dossier host  dépend du système d’exploitation host
 
 3)	Valider le XML à l’aide d’un xsd
 
-**Xmllint –schema annuaire.xsd annuaire.xml D:\3eme_ENSG\xml_validator**
+**Xmllint –schema annuaire.xsd annuaire.xml**
 
 #####Exemple:
 
-![Exmple d'utilisation du container pour la validation du fichir annuaire.xml](ressources/exemple.png "")
+![Exmple d'utilisation du container pour la validation du fichir annuaire.xml](ressources/exemple.PNG "")
 
