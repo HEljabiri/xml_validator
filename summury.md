@@ -46,6 +46,8 @@ le template du chemin du dossier host  dépend du système d’exploitation host
 
 //c/Users/user/chemin
 
+Sinon, mettre tout simplement : $HOME
+
 3)	Valider le XML à l’aide d’un xsd
 
 **Xmllint –schema annuaire.xsd annuaire.xml**
